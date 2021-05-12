@@ -12,6 +12,6 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
 ## Author
 
 - Website - [Erick Saavedra](https://www.ericksaavedra.dev)
-- Frontend Mentor - [@erick-sk](https://www.frontendmentor.io/profile/erick-sk
+- Frontend Mentor - [@erick-sk](https://www.frontendmentor.io/profile/erick-sk)
 - Twitter - [@ericksk_](https://www.twitter.com/ericksk_)
 
