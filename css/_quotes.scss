@@ -1,4 +1,6 @@
 .quotes {
+  padding-bottom: 200px;
+
   &__grid {
     position: relative;
     display: grid;
@@ -12,13 +14,15 @@
       max-width: 1320px;
     }
 
-    &:first-child::before {
+    &:first-child:before {
       content: url("/images/bg-quotes.png");
-      position: absolute;
       transform: scale(0.7);
+      position: absolute;
       z-index: 0;
       top: -20px;
       left: 20px;
+      width: 27px;
+      height: 18px;
 
       @include breakpoint(large) {
         transform: none;

@@ -11,13 +11,13 @@ $ctaCyan: #64e1d9;
 $ctaBlue: #329ecc;
 
 // Borders
-$border-radius-circle: 30px;
 $border-radius: 10px;
+$border-radius-circle: 30px;
 
 // Breakpoints
 $breakpoints: (
   small: 499px,
-  medium: 899px,
+  medium: 699px,
   large: 999px,
   xlarge: 1399px,
 );
@@ -25,7 +25,7 @@ $breakpoints: (
 @mixin breakpoint($size) {
   $breakpoint-value: map-get($breakpoints, $size);
 
-  @media (min-width: $breakpoint-value,) {
+  @media screen and (min-width: $breakpoint-value) {
     @content;
   }
 }
